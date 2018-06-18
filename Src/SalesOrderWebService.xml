@@ -2,7 +2,7 @@
 <ExportedData>
     <TenantWebServiceCollection>
         <TenantWebService>
-            <ObjectType>Codeunit</ObjectType>
+            <ObjectType>5</ObjectType>
             <ObjectID>50100</ObjectID>
             <ServiceName>SalesOrderStatus</ServiceName>
             <Published>true</Published>
