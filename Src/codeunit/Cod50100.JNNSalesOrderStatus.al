@@ -8,7 +8,7 @@ codeunit 50100 "JNNSalesOrderStatus"
       SalesOrder: Record "Sales Header";
   begin
     if SalesOrder.Get(SalesOrder."Document Type"::Order, OrderNo)  then begin;
-        if StrPos(SalesOrder."Sell-to Customer Name",CustomerName) > 0 then
+        if StrPos(UpperCase(SalesOrder."Sell-to Customer Name"),UpperCase(CustomerName)  ) > 0 then
             exit(Format(SalesOrder.Status))
         else
             exit('This is not your order');    
