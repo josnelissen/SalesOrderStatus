@@ -17,7 +17,4 @@ codeunit 50100 "JNNSalesOrderStatus"
 
   end;
 
-
-  
-
 }
